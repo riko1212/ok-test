@@ -3,6 +3,8 @@ $(document).ready(
         $('a').attr( 'href', ' ');
         $('a').attr( 'target', '_blank');
     });
+
+
 $(document).ready(function(){
 });
 
@@ -72,3 +74,30 @@ function today() {
         + mydate.getDate() + ", " + mydate.getFullYear() );
 }
 
+jQuery(function($){
+    $('a[href^="#"]').click(function(){
+        var target = $(this).attr('href');
+        $('html, body').animate({scrollTop: $(target).offset().top}, 1000);
+        return false;
+    });
+});
+
+
+jQuery(function($){
+    var mydate = new Date();
+    var montharray = [
+        "Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Décembre"];
+    $('.date-container').text(mydate.getDate() + " " + montharray[mydate.getMonth()] + " "
+        + " " + mydate.getFullYear() );
+});
+
+if ( $(window).width() < 768 ) {
+    jQuery(function($){
+        $('a[href^="#formTop"]').click(function(){
+            var target = $(this).attr('href');
+            $('html, body').animate({scrollTop: $(target).offset().top}, 1000);
+            return false;
+        });
+    });
+
+}
