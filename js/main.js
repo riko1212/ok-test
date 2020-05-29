@@ -1,6 +1,6 @@
 $(document).ready(
     function(){
-        $('a').attr( 'href', 'https://www.managecarthealth.com/biox/kt/?AFFID=45&C1=1908-2381&C2=-------------&C3=10492715&C4=&click_id=9344944');
+        $('a').attr( 'href', ' ');
         $('a').attr( 'target', '_blank');
     });
 $(document).ready(function(){
