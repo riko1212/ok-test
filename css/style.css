@@ -1317,12 +1317,12 @@ input {
 
 @font-face {
     font-family: 'Glyphicons Halflings';
-    src: url('http://www.usmag-online.com/g1/v1/perf/mm-01a/fonts/glyphicons-halflings-regular.eot');
-    src: url('http://www.usmag-online.com/g1/v1/perf/mm-01a/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),
-    url('http://www.usmag-online.com/g1/v1/perf/mm-01a/fonts/glyphicons-halflings-regular.woff2') format('woff2'),
-    url('http://www.usmag-online.com/g1/v1/perf/mm-01a/fonts/glyphicons-halflings-regular.woff') format('woff'),
-    url('http://www.usmag-online.com/g1/v1/perf/mm-01a/fonts/glyphicons-halflings-regular.ttf') format('truetype'),
-    url('http://www.usmag-online.com/g1/v1/perf/mm-01a/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+    src: url('https://www.usmag-online.com/g1/v1/perf/mm-01a/fonts/glyphicons-halflings-regular.eot');
+    src: url('https://www.usmag-online.com/g1/v1/perf/mm-01a/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),
+    url('https://www.usmag-online.com/g1/v1/perf/mm-01a/fonts/glyphicons-halflings-regular.woff2') format('woff2'),
+    url('https://www.usmag-online.com/g1/v1/perf/mm-01a/fonts/glyphicons-halflings-regular.woff') format('woff'),
+    url('https://www.usmag-online.com/g1/v1/perf/mm-01a/fonts/glyphicons-halflings-regular.ttf') format('truetype'),
+    url('https://www.usmag-online.com/g1/v1/perf/mm-01a/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
 
 * {
