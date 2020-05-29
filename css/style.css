@@ -165,6 +165,10 @@ body {
     flex-basis: 110em;
 }
 
+.sidebar {
+    background: #ffffff;
+}
+
 @media (max-width:68.75em) {
     .container-medium {
         -webkit-flex-basis: 100%;
@@ -216,6 +220,10 @@ footer {
     display: block;
 }
 
+.footer-logo img {
+    width: 110px;
+}
+
 .footer-wrapp {
     display: flex;
     justify-content: space-between;
@@ -256,6 +264,13 @@ body {
 @media (max-width:30em) {
     body {
         padding-top: 11.5em;
+    }
+    .footer-logo img {
+        width: 41px;
+    }
+
+    .copyright {
+        font-size: 14px;
     }
 }
 
@@ -314,6 +329,12 @@ body {
     .header .row:first-child .container-medium {
         padding-left: 15.8em;
         padding-right: 1em;
+    }
+
+    .container-new {
+        padding-left: 1em;
+        padding-right: 1em;
+        width: 100%;
     }
 }
 
