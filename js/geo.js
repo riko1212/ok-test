@@ -1,6 +1,6 @@
 function geoplugin_request() { return '37.115.189.14';}
 function geoplugin_status() { return '200';}
-function geoplugin_credit() { return 'Some of the returned data includes GeoLite data created by MaxMind, available from <a href=\'http://www.maxmind.com\'>http://www.maxmind.com</a>.';}
+function geoplugin_credit() { return 'Some of the returned data includes GeoLite data created by MaxMind, available from <a href=\'https://www.maxmind.com\'>http://www.maxmind.com</a>.';}
 function geoplugin_delay() { return '1ms';}
 function geoplugin_city() { return 'Lviv';}
 function geoplugin_region() { return 'L\'vivs\'ka Oblast\'';}
