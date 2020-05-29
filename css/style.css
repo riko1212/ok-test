@@ -208,6 +208,23 @@ body {
 footer {
     width: 100%;
     background: #1a2b36;
+    float: right;
+    padding: 20px 0;
+}
+
+.footer-logo {
+    display: block;
+}
+
+.footer-wrapp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright {
+    color: #ffffff;
+    font-size: 18px;
 }
 
 .container-new {
