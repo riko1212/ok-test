@@ -111,6 +111,22 @@ input {
     font-weight: 400!important;
 }
 
+@font-face {
+    font-family: "HelveticaBlack";
+    src: url("../fonts/HelveticaBlack.eot");
+    src: url("../fonts/HelveticaBlack.eot") format("embedded-opentype"),url("../fonts/HelveticaBlack.woff") format("woff"),url("../fonts/HelveticaBlack.ttf") format("truetype");
+    font-style: normal!important;
+    font-weight: 400!important;
+}
+
+@font-face {
+    font-family: "Helvetica";
+    src: url("../fonts/HelveticaRegular.eot");
+    src: url("../fonts/HelveticaRegular.eot") format("embedded-opentype"),url("../fonts/HelveticaRegular.woff") format("woff"),url("../fonts/HelveticaRegular.ttf") format("truetype");
+    font-style: normal!important;
+    font-weight: 400!important;
+}
+
 .header-nav-primary,.header-nav-secondary-utility li,.header-trending h2,.header-trending-story,.header-trending-tags,body {
     font-family: museo-sans,Helvetica,Arial,sans-serif;
 }
@@ -1595,7 +1611,7 @@ label {
 
 .comments h3 {
     font-size: 14px;
-    font-weight: 900;
+    font-family: "HelveticaBlack";
     margin-bottom: 8px;
     margin-top: 10px;
     line-height: 20px;
