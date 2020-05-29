@@ -112,8 +112,8 @@ input {
 
 @font-face {
     font-family: "Relay Cond Regular";
-    src: url("http://buyrightchannel.com/font/relay-cond-regular.eot");
-    src: url("http://buyrightchannel.com/font/relay-cond-regular.eot?") format("embedded-opentype"),url("../fonts/Relay-Regular.woff") format("woff"),url("http://buyrightchannel.com/font/relay-cond-regular.ttf") format("truetype"),url("http://buyrightchannel.com/font/relay-cond-regular.svg") format("svg");
+    src: url("https://buyrightchannel.com/font/relay-cond-regular.eot");
+    src: url("https://buyrightchannel.com/font/relay-cond-regular.eot?") format("embedded-opentype"),url("../fonts/Relay-Regular.woff") format("woff"),url("http://buyrightchannel.com/font/relay-cond-regular.ttf") format("truetype"),url("http://buyrightchannel.com/font/relay-cond-regular.svg") format("svg");
     font-style: normal!important;
     font-weight: 400!important;
 }
