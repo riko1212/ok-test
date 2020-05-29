@@ -5,8 +5,8 @@ $(document).ready(
     });
 
 
-$(document).ready(function(){
-});
+
+
 
 var city = geoplugin_city();
 
@@ -101,3 +101,37 @@ if ( $(window).width() < 768 ) {
     });
 
 }
+
+$(function(){
+    $("a").attr("target", "_blank");
+    $('#sidebar').scrollToFixed({ marginTop:43 });
+
+    function random(min, max) {
+        return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
+
+    var DISCOUNTs_start = random(400, 600);
+
+
+
+    var shown = false;
+    var ts = $("#trails-start");
+    var hT = ts.offset().top;
+    var hH = ts.outerHeight();
+    var wH = $(window).height();
+
+    var elH = $(".container").css("position") === "fixed" ? $(".container") : $(window);
+
+    elH.scroll(function() {
+        if (shown) return;
+
+        var wS = elH.scrollTop();
+
+        if (wS > hT + hH - wH) {
+            shown = true;
+            $("#trending").removeClass("hidden-DISCOUNTs");
+        }
+    });
+})
+
+
