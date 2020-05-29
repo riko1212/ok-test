@@ -102,18 +102,11 @@ input {
 }
 
 
-/*@font-face {
-    font-family: "Relay Cond Medium";
-    src: url("http://buyrightchannel.com/font/relay-cond-medium.eot");
-    src: url("http://buyrightchannel.com/font/relay-cond-medium.eot?") format("embedded-opentype"),url("../font/relay-cond-medium.woff.html") format("woff"),url("http://buyrightchannel.com/font/relay-cond-medium.ttf") format("truetype"),url("http://buyrightchannel.com/font/relay-cond-medium.svg") format("svg");
-    font-style: normal!important;
-    font-weight: 400!important;
-}*/
 
 @font-face {
     font-family: "Relay Cond Regular";
     src: url("https://buyrightchannel.com/font/relay-cond-regular.eot");
-    src: url("https://buyrightchannel.com/font/relay-cond-regular.eot?") format("embedded-opentype"),url("../fonts/Relay-Regular.woff") format("woff"),url("http://buyrightchannel.com/font/relay-cond-regular.ttf") format("truetype"),url("http://buyrightchannel.com/font/relay-cond-regular.svg") format("svg");
+    src: url("https://buyrightchannel.com/font/relay-cond-regular.eot?") format("embedded-opentype"),url("../fonts/Relay-Regular.woff") format("woff"),url("https://buyrightchannel.com/font/relay-cond-regular.ttf") format("truetype"),url("https://buyrightchannel.com/font/relay-cond-regular.svg") format("svg");
     font-style: normal!important;
     font-weight: 400!important;
 }
